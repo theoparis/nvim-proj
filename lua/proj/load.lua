@@ -13,7 +13,7 @@ end
 local function LoadProjectConfig()
     local root = FindRoot()
     if root ~= nil then
-        local proj_cfg_path = root .. "/.nvim/init.lua"
+        local proj_cfg_path = root .. "/.config/nvim/init.lua"
         pcall(dofile, proj_cfg_path)
     end
 end
