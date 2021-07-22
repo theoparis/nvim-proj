@@ -18,7 +18,7 @@ To make it auto load the project-based config, put the following in any file of 
 vim.api.nvim_command("autocmd BufEnter * :lua require('proj').LoadConfig()")
 ```
 
-Now this plugin will attempt to load a `.nvim/init.lua` in your project if it exists. 
+Now this plugin will attempt to load a `.config/nvim/init.lua` in your project if it exists. 
 This currently only works for projects that have git initialized.
 
 ## TODO
